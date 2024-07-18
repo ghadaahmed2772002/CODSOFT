@@ -1,0 +1,257 @@
+@font-face {
+    font-family: 'newFont';
+    src: url('../fonts/static/Inconsolata-Black.ttf') format('truetype');  
+}
+
+body {
+    font-family: 'newFont', sans-serif;
+    line-height: 1.6;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+#container-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header li {
+    margin: 0 15px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid  #bbb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.about-image {
+    width: 40%;
+    border-radius: 10px;
+
+   
+}
+
+.about-text {
+    width: 55%;
+
+ 
+}
+
+
+
+#skill {
+    border: 1px solid  #bbb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+#skill h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#skill ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skill li {
+    margin: 10px 20px;
+}
+
+#projects {
+    border: 1px solid  #bbb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    border-radius: 10px;
+}
+.skills contain{
+border:10px #333;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color:black;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+#resume {
+    text-align: center;
+    border: 1px solid  #bbb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #555;
+}
+
+
+#contact {
+    border: 1px solid  #bbb;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+    
+}
+
+#contact a {
+    color:black;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    display: flex;
+    width:80%;
+    justify-content:space-around;
+    align-items: center;
+    bottom: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
